@@ -20,7 +20,7 @@ nodejs::prefix: '/opt'
 nodejs::provider: 'nodenv'
 nodejs::user: "%{::id}"
 
-nodejs::build::ensure: v2.2.7
+nodejs::build::ensure: aaef7e67cd2c48de2c054b7a54ea8ac90fdd59d1
 nodejs::build::prefix: "%{hiera('nodejs::prefix')}/node-build"
 nodejs::build::user: "%{hiera('nodejs::user')}"
 
